@@ -1,4 +1,4 @@
-package com.java.nice.nice;
+package com.esperluette.nice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

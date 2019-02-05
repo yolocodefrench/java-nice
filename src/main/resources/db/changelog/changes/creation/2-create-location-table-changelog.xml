@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <changeSet author="rcharre" id="3">
+        <createTable tableName="location">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" type="VARCHAR(50)">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="description" type="VARCHAR(1000)">
+                <constraints/>
+            </column>
+
+            <column name="address" type="VARCHAR(100)">
+                <constraints/>
+            </column>
+
+            <column name="phone" type="VARCHAR(20)">
+                <constraints/>
+            </column>
+
+            <column name="website" type="VARCHAR(50)">
+                <constraints/>
+            </column>
+
+            <column name="disabled_access" type="BOOLEAN">
+                <constraints/>
+            </column>
+
+            <column name="latitude" type="FLOAT">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="longitude" type="FLOAT">
+                <constraints nullable="false"/>
+            </column>
+
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

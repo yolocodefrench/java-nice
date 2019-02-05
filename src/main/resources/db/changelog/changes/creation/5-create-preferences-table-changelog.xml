@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <changeSet author="rcharre" id="3">
+        <createTable tableName="preferences">
+            <column autoIncrement="true" name="id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+
+            <column name="user_id" type="INT">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="museum" type="BOOLEAN">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="sport" type="BOOLEAN">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="technology" type="BOOLEAN">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="nature" type="BOOLEAN">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>

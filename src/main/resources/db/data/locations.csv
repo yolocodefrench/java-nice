@@ -1,0 +1,7 @@
+id,name,description,phone,address,website,disabled_access,latitude,longitude
+1,"Promenade des anglais","","","","",true,42.681224,7.232031
+2,"Vieux Nice","","","","",true,43.696358,7.276917
+3,"Cathedrale Orthodoxe Russe St Nicolas","La cathédrale St-Nicolas fut édifiée au début du XXe siècle sous le patronage du dernier Tsar Nicolas II et de sa mère l'Impératrice douairière Marie Feodorovna. La cathédrale est le plus bel édifice religieux de ce rite en dehors de Russie et la plus parfaite représentation de l'art religieux russe à l'étranger.","0981095345","Av Nicolas II Bd Tzarévitch 06000 NICE","",true,43.703532,7.253767
+4,"Musee Matisse","","","","",true,43.719537,7.276301
+5,"Galerie de la marine","","","","",true,43.695103,7.276167
+6,"Musee d'art moderne et d'art contemporain","","","","",true,43.701625,7.278688

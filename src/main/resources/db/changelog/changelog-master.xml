@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!-- CREATION -->
+    <include file="/db/changelog/changes/creation/1-create-user-table-changelog.xml"/>
+    <include file="/db/changelog/changes/creation/2-create-location-table-changelog.xml"/>
+    <include file="/db/changelog/changes/creation/3-create-picture-table-changelog.xml"/>
+    <include file="/db/changelog/changes/creation/4-create-schedule-table-changelog.xml"/>
+    <include file="/db/changelog/changes/creation/5-create-preferences-table-changelog.xml"/>
+    <include file="/db/changelog/changes/creation/6-create-location_location_type-table-changelog.xml"/>
+
+    <!-- INSERTION -->
+    <include file="/db/changelog/changes/insertion/1-insert-user-table-changelog.xml"/>
+    <include file="/db/changelog/changes/insertion/2-insert-location-table-changelog.xml"/>
+    <include file="/db/changelog/changes/insertion/3-insert-preferences-table-changelog.xml"/>
+    <include file="/db/changelog/changes/insertion/4-insert-schedule-table-changelog.xml"/>
+    <include file="/db/changelog/changes/insertion/5-insert-picture-table-changelog.xml"/>
+    <include file="/db/changelog/changes/insertion/6-insert-location_location_type-table-changelog.xml"/>
+</databaseChangeLog>
