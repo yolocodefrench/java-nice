@@ -23,3 +23,13 @@
 /nbdist/
 /.nb-gradle/
 /build/
+
+hs_err_pid12672\.log
+
+hs_err_pid12856\.log
+
+hs_err_pid5864\.log
+
+hs_err_pid9128\.log
+
+*.log

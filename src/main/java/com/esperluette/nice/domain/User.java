@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.Collection;
 
 @Entity
-@Table(name = "user")
+@Table(name = "app_user")
 public class User implements Serializable, UserDetails {
 
     @Id
