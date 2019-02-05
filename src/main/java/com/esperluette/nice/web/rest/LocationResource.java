@@ -15,7 +15,6 @@ import org.springframework.web.util.UriComponentsBuilder;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
-@CrossOrigin(maxAge = 3600)
 @Controller
 @RequestMapping(path = "/api/locations")
 public class LocationResource {

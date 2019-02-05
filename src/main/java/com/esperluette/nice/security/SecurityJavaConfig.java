@@ -73,7 +73,7 @@ public class SecurityJavaConfig extends WebSecurityConfigurerAdapter {
             .antMatchers("/registration")
                 .permitAll()
             .anyRequest()
-                .authenticated()
+                .permitAll()
             .and()
                 .csrf().disable()
             .formLogin()

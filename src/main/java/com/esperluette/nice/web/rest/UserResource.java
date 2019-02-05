@@ -17,7 +17,6 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import javax.servlet.http.HttpServletResponse;
 
-@CrossOrigin(maxAge = 3600)
 @Controller
 @RequestMapping(path = "/api/users")
 public class UserResource {
